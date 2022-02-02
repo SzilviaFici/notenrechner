@@ -7,6 +7,7 @@ let summe = 0;
 let anzahlNoten = 0;
 let ergebnis;
 
+//refactor auf -> notenAuslesen()
 function tfAuslesen(){
 
     anzahlNoten = 0
@@ -44,7 +45,7 @@ function tfAuslesen(){
 
 
 
-
+//refactor auf -> eingabeUeberpruefen(punkte)
 function eingabeUeberpruefen(punkte) {
     if (isNaN(punkte)){
         console.log("Keine Zahl");
